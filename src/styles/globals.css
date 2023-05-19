@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-background text-[#efeff1]
+    @apply bg-background text-text
 }
 
 .center {
