@@ -1,6 +1,7 @@
 import { type FC } from "react";
 import Image from "next/image";
 import { type User } from "@clerk/backend";
+import Link from "next/link";
 
 interface SidebarUserItemProps {
   user: User;
@@ -9,10 +10,9 @@ interface SidebarUserItemProps {
 
 const SidebarUserItem: FC<SidebarUserItemProps> = ({ user, isFull }) => {
   return (
-    <div
-      className={
-        "flex cursor-pointer flex-row items-center gap-2 p-2 hover:bg-white/10"
-      }
+    <Link
+      href={`${user.username || ""}`}
+      className={"flex  flex-row items-center gap-2 p-2 hover:bg-white/10"}
     >
       <Image
         key={user.id}
@@ -20,12 +20,12 @@ const SidebarUserItem: FC<SidebarUserItemProps> = ({ user, isFull }) => {
         alt={"user-avatar"}
         width={30}
         height={30}
-        className={"rounded-full"}
+        className={"avatar rounded-full"}
       />
       {isFull ? (
         <p className={"font-medium"}>{user.username || user.firstName}</p>
       ) : null}
-    </div>
+    </Link>
   );
 };
 

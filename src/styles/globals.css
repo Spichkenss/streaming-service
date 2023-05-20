@@ -7,5 +7,32 @@ body {
 }
 
 .center {
-    @apply flex items-center justify-center
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.avatar {
+    @apply select-none shrink-0
+}
+
+.volume-slider {
+    height: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #772ce8;
+    cursor: pointer;
+}
+
+.volume-slider::-webkit-slider-thumb:hover {
+    background-color: rgb(109, 42, 211);
 }

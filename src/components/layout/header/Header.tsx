@@ -1,8 +1,7 @@
-import { SignInButton, UserButton, useUser } from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import TabMenu from "~/components/layout/header/tab-menu/TabMenu";
 
 const Header = () => {
-  const user = useUser();
   return (
     <header
       className={
@@ -10,19 +9,24 @@ const Header = () => {
       }
     >
       <TabMenu />
-      {user.isSignedIn ? (
+      <SignedIn>
         <UserButton
           afterSignOutUrl={"/"}
           afterMultiSessionSingleSignOutUrl={"/"}
           signInUrl={"/"}
         />
-      ) : (
-        <SignInButton
-          mode={"modal"}
-          afterSignUpUrl={"/"}
-          afterSignInUrl={"/"}
-        />
-      )}
+      </SignedIn>
+      <SignedOut>
+        <div className={"rounded bg-brand px-3 py-1"}>
+          <SignInButton
+            mode={"modal"}
+            afterSignUpUrl={"/"}
+            afterSignInUrl={"/"}
+          >
+            Войти
+          </SignInButton>
+        </div>
+      </SignedOut>
     </header>
   );
 };

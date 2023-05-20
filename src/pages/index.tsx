@@ -1,6 +1,5 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Layout from "~/components/layout/Layout";
 
 const Home: NextPage = () => {
   return (
@@ -8,7 +7,6 @@ const Home: NextPage = () => {
       <Head>
         <title>Главная</title>
       </Head>
-      <Layout>123</Layout>
     </>
   );
 };

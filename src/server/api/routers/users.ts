@@ -5,7 +5,7 @@ import { z } from "zod";
 export const userRouter = createTRPCRouter({
   getAll: publicProcedure
     .input(z.object({ userId: z.string() }))
-    .query(async ({ ctx, input }) => {
+    .query(async ({ input }) => {
       return await clerkClient.users
         .getUserList({
           limit: 5,
