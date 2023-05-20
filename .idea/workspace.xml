@@ -5,35 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="363c0ae1-d03f-4d25-92e5-ee0d9bf5f53f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/chat/Chat.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/containers/Hoverable.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Map.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/player/StreamPlayer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/player/controls/CustomControls.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/player/controls/PlayButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/player/controls/VolumeController.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Loader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useHover.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/map/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header/tab-menu/TabItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/tab-menu/TabItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header/tab-menu/TabMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/tab-menu/TabMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/sidebar/Sidebar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/sidebar/user-item/SidebarUserItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/sidebar/user-item/SidebarUserItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/env.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/src/env.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/api/root.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/api/root.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/api/routers/users.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/api/routers/users.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +68,7 @@
       <workItem from="1684441729591" duration="4163000" />
       <workItem from="1684471911657" duration="22343000" />
       <workItem from="1684520494414" duration="12108000" />
-      <workItem from="1684572897868" duration="4013000" />
+      <workItem from="1684572897868" duration="4326000" />
     </task>
     <servers />
   </component>
